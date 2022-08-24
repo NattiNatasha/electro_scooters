@@ -13,3 +13,5 @@
 - Интеграция виджета Яндекс.карты
 - Переход в чаты Viber и WhatsApp при клике на иконки
 - Отправка формы на e-mail
+
+![slide_one](https://user-images.githubusercontent.com/93675664/186389487-5f4e4877-c426-408f-a07f-75eae03585b0.png)
