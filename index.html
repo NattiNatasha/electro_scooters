@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Электросамокаты в Севастополе</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.svg" alt="логотип" />
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#advantages">Преимущества</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <div class="phone">
+        <span>+7 (978) 051-10-50</div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+        <div class="slider">
+            <div class="slide-one active">
+                <div class="content">
+                    <h3>Купить электросамокат</h3>
+                    <p>
+                        Самые выгодные цены у нас
+                    </p>
+                    <a href="#" class="btn show-modal-window">Заказать</a>
+                </div>
+            </div>
+            <div class="slide-two">
+                <div class="content">
+                    <h3>Купить электросамокат</h3>
+                    <p>
+                        с доставкой по Севастополю
+                    </p>
+                    <a href="#" class="btn show-modal-window">Заказать</a>
+                </div>
+            </div>
+        </div>
+        <div class="circle-indicators"></div>
+
+        <div class="modal-window hidden">
+            <div class="form__top">
+                <button id="close-modal-window" class="fas fa-window-close"></button>
+            </div>
+            <form action="sendmail.php" method='POST' id="form" class="form__body">
+                <label for="formName" class="form__label">Имя*</label>
+                <div class="inputBox" class="_req">
+                    <span class="fas fa-user"></span>
+                    <input id="formName" type="text" name="name" placeholder="Имя" required>
+                </div>
+                <label for="formPhone" class="form__label">Телефон*</label>
+                <div class="inputBox" class="_req">
+                    <span class="fas fa-phone"></span>
+                    <input id="formPhone" type="number" name="phone" placeholder="+7 978 111 11 11" required>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" name="agreement" checked id="formAgreement" class="checkbox__input" required>
+                    <label for="formAgreement" class="checkbox__label"><span>Принимаю </span><a href="#"> условия</a></label>
+                </div>
+                <input type="submit" value="Отправить" class="btn">
+            </form>
+          </div>
+          <div class="overlay hidden"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- advantages section starts  -->
+
+<section class="advantages" id="advantages">
+
+    <h1 class="heading"><span>Преимущества</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="box__icon">
+                <span class="fa fa-address-card"></span>
+            </div>
+            <div class="box__content">
+                <h3>Преимущество №1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam labore in quod repudiandae illum, dolorum accusamus a molestiae perferendis odio aliquam eius reiciendis vel necessitatibus odit nulla possimus eum.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box__icon">
+                <span class="fa fa-book"></span>
+            </div>
+            <div class="box__content">
+                <h3>Преимущество №2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam labore in quod repudiandae illum, dolorum accusamus a molestiae perferendis odio aliquam eius reiciendis vel necessitatibus odit nulla possimus eum.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box__icon">
+                <span class="fa fa-camera"></span>
+            </div>
+            <div class="box__content">
+                <h3>Преимущество №3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam labore in quod repudiandae illum, dolorum accusamus a molestiae perferendis odio aliquam eius reiciendis vel necessitatibus odit nulla possimus eum.</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box__icon">
+                <span class="fa fa-car-side"></span>
+            </div>
+            <div class="box__content">
+                <h3>Преимущество №4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus numquam labore in quod repudiandae illum, dolorum accusamus a molestiae perferendis odio aliquam eius reiciendis vel necessitatibus odit nulla possimus eum.</p>
+            </div>
+        </div>
+    </div>
+    <div class="advantages__btn">
+        <a href="#" class="btn">Заказать</a>
+    </div>
+
+</section>
+
+<!-- advantages section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>Контакты</span></h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae4e6e774e42a1320e304df5d468852cffb957f319193ae27aa396c0d30c2ea23&amp;source=constructor" frameborder="0" allowfullscreen="" loading="lazy"></iframe>
+
+        <div class="contact__block">
+            <div class="contact__info">
+                <p>г. Севастополь, ПОР 42Б,</p>
+                <p>+7 (978) 051-10-50</p>
+                <p>info@marketing1.su</p>
+            </div>
+            <h2>Мессенджеры</h2>
+            <div class="contact__messengers">
+                <a href="viber://chat?number=%2B79780511050"><span class="fab fa-viber"></a></span>
+                <a href = 'https://api.whatsapp.com/send/?phone=79780511050' target="_blank" rel=”noreferrer noopener”><span class="fab fa-whatsapp"></a></span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
