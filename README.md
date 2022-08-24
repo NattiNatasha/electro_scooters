@@ -15,3 +15,5 @@
 - Отправка формы на e-mail
 
 ![slide_one](https://user-images.githubusercontent.com/93675664/186389487-5f4e4877-c426-408f-a07f-75eae03585b0.png)
+
+![form](https://user-images.githubusercontent.com/93675664/186389971-77425a26-2edf-4f4e-8621-518b71e9929b.png)
